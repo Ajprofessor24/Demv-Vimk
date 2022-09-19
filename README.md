@@ -7,7 +7,7 @@
 <details>
 <summary><h4> Deploy To Heroku 🚀</h4></summary>
 <pre><i>Enter The Required Vars In The Heroku.</i></pre>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Devarora0981/Demv-Vimk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Ajprofessor24/Demv-Vimk"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 </details>
 
 ## Sample Bot Is Given Below, You Can Check That.
