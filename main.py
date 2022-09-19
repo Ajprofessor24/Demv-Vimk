@@ -106,12 +106,12 @@ DEV_OP = [
     ],
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ",
+            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", url=f"https://github.com/Devarora0981/Demv-Vimk"),
+        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", url=f"https://github.com/Ajprofessor24/Demv-Vimk"),
         InlineKeyboardButton(text="☁️ ᴜᴘᴅᴀᴛᴇs ☁️", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
 ]
@@ -141,9 +141,9 @@ async def restart(client, m: Message):
     )
 @bot.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
-    hmm = await message.reply_text("**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ɴᴏᴛᴇ » ʙᴏᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**©️ @Dev_Arora_0981**")
+    hmm = await message.reply_text("**ᴜsᴀɢᴇ ☟︎︎︎**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ɴᴏᴛᴇ » ʙᴏᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n\n**©️ @PAPA_BOL_SAKTEHO**")
 
-@bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
+@bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "ajeet", "$", "aj"]))
 async def ping(client, message: Message):
         start = datetime.now()
         t = "Pinging..."
@@ -151,7 +151,7 @@ async def ping(client, message: Message):
         await asyncio.sleep(2)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit_text(f"ʏᴇᴀʜ ʙᴀʙʏ!\n**{BOT_NAME}** ɪs ᴀʟɪᴠᴇ 🥀\n\nᴘɪɴɢ-ᴘᴏɴɢ 🏓\n   ➥ {ms} ms\n ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ [ᴅᴇᴠ🎋](t.me/Dev_Arora_0981)")
+        await txxt.edit_text(f"ʏᴇᴀʜ ʙᴀʙʏ!\n**{BOT_NAME}** ɪs ᴀʟɪᴠᴇ 🥀\n\nᴘɪɴɢ-ᴘᴏɴɢ 🏓\n   ➥ {ms} ms\n ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ [✨➤⃝✖‿✖•Ajͥeeͣtͫ ✨](t.me/papa_bol_sakteho)")
 
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
@@ -203,7 +203,7 @@ async def chatboton(client, message):
     filters.command(["chatbot", f"chatbot@{BOT_USERNAME}"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**ᴜsᴀɢᴇ:**\n/**chatbot [on/off]**\n**ᴄʜᴀᴛ-ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ(s) ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!**")
+    await message.reply_text(f"**ᴜsᴀɢᴇ:**\n/**chatbot [on/off]**\n**ᴄʜᴀᴛ-ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ(s) ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ ʙᴀʙʏ !**")
 
 
 @bot.on_message(
